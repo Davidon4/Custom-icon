@@ -32,7 +32,9 @@ const App = () => {
   return (
     <View style={[styles.container, styles.center]}>
       <Icon name="phone" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a phone</Text>
+      <Text>This is a Phone</Text>
+      <Icon name="laptop" style={[styles.colorBlue, styles.fontSize30]} />
+      <Text>This is a Laptop</Text>
     </View>
   );
 };
@@ -43,6 +45,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f2f2f2",
+    flexDirection: 'row'
   },
   center: {
     alignItems: "center",
