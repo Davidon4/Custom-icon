@@ -31,10 +31,12 @@ const App = () => {
 
   return (
     <View style={[styles.container, styles.center]}>
-      <Icon name="phone" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a Phone</Text>
-      <Icon name="laptop" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a Laptop</Text>
+      <Icon name="Bags" style={[styles.colorBlue, styles.fontSize30]} />
+      <Text>This is a Bag</Text>
+      <Icon name="Fashion" style={[styles.colorBlue, styles.fontSize30]} />
+      <Text>This is a Fashion</Text>
+      <Icon name="Fragrances" style={[styles.colorBlue, styles.fontSize30]} />
+      <Text>This is a Fragrance</Text>
     </View>
   );
 };
@@ -51,9 +53,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  colorBlue: {
-    color: "#002080",
-  },
+  // colorBlue: {
+  //   color: "#002080",
+  // },
   fontSize30: {
     fontSize: 30,
   },
