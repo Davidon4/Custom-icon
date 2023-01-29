@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { StyleSheet, View, Text } from "react-native";
 import * as Font from "expo-font";
 
-import { createIconSetFromIcoMoon } from "react-native-vector-icons";
+import { createIconSetFromIcoMoon } from '@expo/vector-icons';
 import icoMoonConfig from "./selection.json";
 const Icon = createIconSetFromIcoMoon(icoMoonConfig);
 
