@@ -13,8 +13,8 @@ const App = () => {
     const loadFonts = async () => {
       try {
         await Font.loadAsync({
-          "roboto-mono": require("./assets/fonts/RobotoMono-Regular.ttf"),
-          "icomoon": require("./assets/fonts/icomoon.ttf"),
+          'roboto-mono': require("./assets/fonts/RobotoMono-Regular.ttf"),
+          'icomoon': require("./assets/fonts/icomoon.ttf"),
         });
         console.log("Fonts loaded successfully");
         setFontLoaded(true);
