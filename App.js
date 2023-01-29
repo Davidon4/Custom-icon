@@ -55,9 +55,3 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
 });
-
-// console.log(
-//   `Checking if file ${"./assets/fonts/icomoon.ttf"} exists...`
-// );
-// const icomoon = require("./assets/fonts/icomoon.ttf");
-// console.log(`File ${"./assets/fonts/icomoon.ttf"} exists.`);
