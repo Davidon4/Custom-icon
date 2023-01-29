@@ -32,11 +32,12 @@ const App = () => {
   return (
     <View style={[styles.container, styles.center]}>
       <Icon name="Bags" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a Bag</Text>
       <Icon name="Fashion" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a Fashion</Text>
       <Icon name="Fragrances" style={[styles.colorBlue, styles.fontSize30]} />
-      <Text>This is a Fragrance</Text>
+      <Icon name="Female-Clothing" style={[styles.colorBlue, styles.fontSize30]} />
+      <Icon name="Men-Clothing" style={[styles.colorBlue, styles.fontSize30]} />
+      <Icon name="Gadgets" style={[styles.colorBlue, styles.fontSize30]} />
+      <Icon name="Phones" style={[styles.colorBlue, styles.fontSize30]} />
     </View>
   );
 };
