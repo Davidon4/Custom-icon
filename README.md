@@ -20,7 +20,6 @@ This repository serves as a complementary resource to the Medium article, offeri
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contribution</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Author Info</a></li>
   </ol>
@@ -76,20 +75,13 @@ To provide instructions to your audience on installing and setting up your app, 
 In this space, you can provide useful examples of how your project can be utilized. This may include screenshots, code examples, demos, and links to additional resources. Additional materials such as these can help showcase the capabilities of your project.
 
 <div align="center">
-<img width="80%" src="your_image">
+<img width="80%" src="./assets/screenshot.jpeg">
 </div>
 
 <p align="right">[<a href="#project-name">back to top</a>]</p>
 
 ---
 
-<!-- CONTRIBUTION -->
-## Contribution
-<!-- If you would like to create a contribution section on your project, check out the README.md file for an example on how to contribute. Provide information on how to contribute to your project in this section -->
-
-<p align="right">[<a href="#project-name">back to top</a>]</p>
-
----
 <!-- LICENSE -->
 ## License
 
