@@ -38,15 +38,8 @@ This open-source repository provides extensive guidance and practical examples t
 ## Getting Started
 
 
-
 ### Prerequisites
-<!-- Guideline on installing software -->
-To use the software, audience will need to install the necessary items. Provide a guide to help through the process.
-
-* npm
-  ```
-  npm install npm@latest -g
-  ```
+To be able to execute this project, please ensure that you have installed the latest version of Node.js and the Expo-CLI package on your local system.
 
 ### Installation
 
@@ -75,7 +68,7 @@ To provide instructions to your audience on installing and setting up your app, 
 In this space, you can provide useful examples of how your project can be utilized. This may include screenshots, code examples, demos, and links to additional resources. Additional materials such as these can help showcase the capabilities of your project.
 
 <div align="center">
-<img width="50%" height="50%" src="./assets/screenshot.jpeg">
+<img width="50%" src="./assets/screenshot.jpeg">
 </div>
 
 <p align="right">[<a href="#project-name">back to top</a>]</p>
