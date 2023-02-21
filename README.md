@@ -1,6 +1,6 @@
 
 <!-- NAME OF THE PROJECT -->
-## Custom icon
+## Custom Icons and Fonts in React Native for Enhanced User Experience.
 <!-- Short description of project if you want -->
 This repository serves as a complementary resource to the Medium article, offering further practical insights and support on the same topic.
 
