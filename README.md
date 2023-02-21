@@ -75,7 +75,7 @@ To provide instructions to your audience on installing and setting up your app, 
 In this space, you can provide useful examples of how your project can be utilized. This may include screenshots, code examples, demos, and links to additional resources. Additional materials such as these can help showcase the capabilities of your project.
 
 <div align="center">
-<img width="80%" src="./assets/screenshot.jpeg">
+<img width="50%" src="./assets/screenshot.jpeg">
 </div>
 
 <p align="right">[<a href="#project-name">back to top</a>]</p>
