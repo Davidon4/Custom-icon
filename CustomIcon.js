@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { StyleSheet, View } from "react-native";
 import * as Font from "expo-font";
 
-import { createIconSetFromIcoMoon } from '@expo/vector-icons';
+import { createIconSetFromIcoMoon } from "@expo/vector-icons";
 import icoMoonConfig from "./selection.json";
 const Icon = createIconSetFromIcoMoon(icoMoonConfig);
 
@@ -13,7 +13,7 @@ const CustomIcon = () => {
     const loadFonts = async () => {
       try {
         await Font.loadAsync({
-          'roboto-mono': require("./assets/fonts/RobotoMono-Regular.ttf"),
+          "roboto-mono": require("./assets/fonts/RobotoMono-Regular.ttf"),
           'icomoon': require("./assets/fonts/icomoon.ttf"),
         });
         console.log("Fonts loaded successfully");
@@ -31,8 +31,11 @@ const CustomIcon = () => {
 
   return (
     <View style={[styles.container, styles.center]}>
-      <Icon name="Bags" style={[styles.colorBlue, styles.fontSize30]} />
-      <Icon name="Men-Clothing" style={[styles.colorBlue, styles.fontSize30]} />
+      <Icon name="Bags" style={styles.icon} color='red' />
+      <Icon name="Men-Clothing" style={styles.icon} color='green' />
+      <Icon name="Fashion" style={styles.icon} color='blue' />
+      <Icon name="Fragrances" style={styles.icon} color='grey' />
+      <Icon name="Gadgets" style={styles.icon} color='purple' />
     </View>
   );
 };
@@ -41,13 +44,12 @@ export default CustomIcon;
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row'
-  },
-  center: {
+    flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
   },
-  fontSize30: {
+  icon: {
     fontSize: 40,
-  },
+    margin: 10
+  }
 });
