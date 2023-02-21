@@ -11,9 +11,6 @@ This repository serves as a complementary resource to the Medium article, offeri
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -38,25 +35,10 @@ This open-source repository provides extensive guidance and practical examples t
 
 ---
 
-### Built With
-
-<!-- This section should list any major frameworks/libraries used to bootstrap your project. If you don't see the badge you need, you can visit one of the links and change the name and logo of the library to the one you require. -->
-
- <!-- <img src="https://img.shields.io/badge/library_name-library_color?style=for-the-badge&logo=library_logo_name&logoColor=library_logo_color" alt="library_name">-->
-
-<div align="center">
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React native">
-</div>
-
-<p align="right">[<a href="#project-name">back to top</a>]</p>
-
-
----
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally
+
 
 ### Prerequisites
 <!-- Guideline on installing software -->
@@ -71,17 +53,17 @@ To use the software, audience will need to install the necessary items. Provide 
 
 To provide instructions to your audience on installing and setting up your app, an example is as follows:
 
-1. Clone the repo
+1. Clone the repository
    ```sh
-   git clone https://github.com/github_username_/repo-name.git
+   git clone https://github.com/Davidon4/Custom-icon.git
    ```
-2. Install NPM package
+2. Install node module package
    ```sh
-   npm install
+   yarn install
    ```
 3. Start project
    ```sh
-   npm start
+   expo start
    ```
 
 <p align="right">[<a href="#project-name">back to top</a>]</p>
@@ -111,7 +93,7 @@ In this space, you can provide useful examples of how your project can be utiliz
 <!-- LICENSE -->
 ## License
 
-Licensed under the [MIT](https://github.com/github_username/repo_name/blob/main/LICENSE).
+Licensed under the [MIT](https://github.com/Davidon4/Custom-icon/blob/main/LICENSE).
 
 <p align="right">[<a href="#project-name">back to top</a>]</p>
 
